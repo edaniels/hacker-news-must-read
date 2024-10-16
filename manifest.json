@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Must Read Hacker News Posts",
+  "version": "1.0",
+  "description": "Look both ways before you comment.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gritty.joy4214@fastmail.com",
+      "strict_min_version": "130.0"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://news.ycombinator.com/*"],
+      "js": ["hnmustread.js"]
+    }
+  ]
+}

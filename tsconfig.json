@@ -1,0 +1,8 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["es2015", "dom"]
+  },
+  "include": ["hnmustread.ts"]
+}
